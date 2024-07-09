@@ -83,5 +83,9 @@ function gameLoop() {
     requestAnimationFrame(gameLoop);
 }
 
+function redirectToGithub() {
+    window.open('https://github.com/civic1007', '_blank');
+}
+
 resetBall();
 gameLoop();
